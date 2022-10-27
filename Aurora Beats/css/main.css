@@ -271,14 +271,14 @@ label i.fas{
 }
 .chat-box form{
   padding: 10px 15px;
-  margin: 20px 0;
+  margin: 8px 0;
   border-radius: 25px;
   border: 1px solid lightgrey;
 }
 .chat-box form .field{
   height: 50px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .chat-box form .field:last-child{
   margin-bottom: 15px;
