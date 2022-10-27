@@ -198,7 +198,7 @@ a {
   display: none;
 }
 label{
-  position: absolute;
+  position: fixed;
   right: 30px;
   bottom: 20px;
   height: 55px;
@@ -233,7 +233,7 @@ label i.fas{
   transform: translate(-50%, -50%) rotate(180deg);
 }
 .wrapper{
-  position: absolute;
+  position: fixed;
   right: 30px;
   bottom: 0px;
   max-width: 400px;
