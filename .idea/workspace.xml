@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cad3b1fa-0773-4f0e-9659-10ffa0fbbe42" name="Changes" comment="favicon">
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aurora Beats/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aurora Beats/main.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GiXiZMYDvK8ujphggt7NSA8H8G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cad3b1fa-0773-4f0e-9659-10ffa0fbbe42" name="Changes" comment="" />
+      <created>1666872507942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666872507942</updated>
+      <workItem from="1666872510437" duration="5073000" />
+      <workItem from="1666924223120" duration="9803000" />
+      <workItem from="1667219074265" duration="5909000" />
+      <workItem from="1667815792034" duration="4269000" />
+      <workItem from="1667821806769" duration="1192000" />
+    </task>
+    <task id="LOCAL-00001" summary="favicon">
+      <created>1666872945193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666872945193</updated>
+    </task>
+    <task id="LOCAL-00002" summary="favicon">
+      <created>1666893552353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666893552353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="favicon">
+      <created>1666894025070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666894025071</updated>
+    </task>
+    <task id="LOCAL-00004" summary="favicon">
+      <created>1666894263295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666894263295</updated>
+    </task>
+    <task id="LOCAL-00005" summary="favicon">
+      <created>1666898778642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666898778643</updated>
+    </task>
+    <task id="LOCAL-00006" summary="favicon">
+      <created>1666899456666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666899456666</updated>
+    </task>
+    <task id="LOCAL-00007" summary="favicon">
+      <created>1666925175243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666925175243</updated>
+    </task>
+    <task id="LOCAL-00008" summary="favicon">
+      <created>1666928404460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666928404460</updated>
+    </task>
+    <task id="LOCAL-00009" summary="favicon">
+      <created>1666961370579</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666961370580</updated>
+    </task>
+    <task id="LOCAL-00010" summary="favicon">
+      <created>1666962538333</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666962538333</updated>
+    </task>
+    <task id="LOCAL-00011" summary="favicon">
+      <created>1667219136560</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667219136560</updated>
+    </task>
+    <task id="LOCAL-00012" summary="favicon">
+      <created>1667277932263</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667277932263</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon" />
+  </component>
+</project>

@@ -11,6 +11,11 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 	<title>Aurora Beats</title>
 </head>
 
@@ -18,21 +23,22 @@
 	<!-- header with navbar -->
 	<header>
 		<div class="navbar">
-			<a href="#home"><div id="logo">Aurora Beats</div></a>
+			<a style="color: #F9F9F9" href="#home"><div id="logo">Aurora Beats</div></a>
 			<ul class="nav">
-				<li><a href="#home">Домой</a></li>
-				<li><a href="#music">Музыка</a></li>
-				<li><a href="#about">О проекте</a></li>
+				<li><a style="color: #F9F9F9" href="#home">Домой</a></li>
+				<li><a style="color: #F9F9F9" href="#music">Музыка</a></li>
+				<li><a style="color: #F9F9F9" href="#about">О проекте</a></li>
 			</ul>
 			<div class="media">
 				<a target='_blank' href="https://www.youtube.com/user/gakkutv/videos"><img src="./img/yt.png" alt="YouTube"></a>
 				<a target='_blank' href="https://www.instagram.com/"><img src="./img/inst.png" alt="Instagram"></a>
 				<a target='_blank' href="https://ru-ru.facebook.com/"><img src="./img/fb.png" alt="Facebook"></a>
-				<a id="lang" href="#">Eng</a>
+				<a style="color: #0f09a1" id="lang" href="#">Eng</a>
 			</div>
 		</div>
 	</header>
-	
+
+
 	<!-- home block -->
 	<div id="home">
 		<div class="home-image">
@@ -44,20 +50,16 @@
 			<a class="button" target='_blank' href="https://open.spotify.com/playlist/37i9dQZEVXbLeBcWrdps2V">Spotify</a>
 		</div>
 	</div>
-	<div id="arrow">
-		<a href="#video"><svg width="51" height="52" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
-			<path d="M49.8945 24.8535L25.8529 48.8951L1.10416 24.1464" stroke="black" stroke-width="3"/>
-			</svg>
-		</a>				
-	</div>
+
 
 	<!-- major button -->
-		<button class="custom-btn btn-12" type="button" onclick="document.location='oprosnik.html'"><span>Click!</span><span>Read More</span></button>
+		<button class="custom-btn btn-12" type="button" onclick="document.location='oprosnik.html'"><span>Mood!</span><span>Try your..</span></button>
+
 
 	<!-- music block -->
 	<div id="audtop">
 		<div>
-		   <h style="font-size: 19">Top relaxing charts</h>
+		   <h>Top relaxing charts</h>
 		</div>
 	</div>
 	<div id="music">
@@ -137,11 +139,83 @@
 			<img src="./img/note.png" alt="Apple" class="Apple">
 		</div>
 		<div class="about">
-			<h1>О проекте</h1>
-			<p>Данный сайт предназначен для прослушивания музыки. Исходя из настроения человека, плейлист может выбрать подходящую музыку.</p>
+			<h1>About project:</h1>
+			<p>This website was created especially 4u by team of music lovers. Our content is completely free, so we persistently ask you to distribution for not indifferents around you.</p>
+			<p>Make Them Happy!</p>
 		</div>
 	</div>
 
 	<script src="./scripts/lang.js"></script>
+
+
+	<!------------ footer ----------->
+
+	<footer class="mainfooter" role="contentinfo">
+		<div class="footer-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<!--Column1-->
+						<div class="footer-pad">
+							<h4>Heading 1</h4>
+							<ul class="list-unstyled">
+								<li><a href="#"></a></li>
+								<li><a href="#">Payment Center</a></li>
+								<li><a href="#">Contact Directory</a></li>
+								<li><a href="#">Forms</a></li>
+								<li><a href="#">News and Updates</a></li>
+								<li><a href="#">FAQs</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<!--Column1-->
+						<div class="footer-pad">
+							<h4>Heading 2</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Website Tutorial</a></li>
+								<li><a href="#">Accessibility</a></li>
+								<li><a href="#">Disclaimer</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Webmaster</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<!--Column1-->
+						<div class="footer-pad">
+							<h4>Heading 3</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Parks and Recreation</a></li>
+								<li><a href="#">Public Works</a></li>
+								<li><a href="#">Police Department</a></li>
+								<li><a href="#">Fire</a></li>
+								<li><a href="#">Mayor and City Council</a></li>
+								<li>
+									<a href="#"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<h4>Follow Us</h4>
+						<ul class="social-network social-circle">
+							<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 copy">
+						<p class="text-center">&copy; Copyright 2022 - Aurora Beats.  All rights reserved.</p>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</footer>
+
 </body>
 </html>
