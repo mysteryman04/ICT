@@ -247,22 +247,21 @@ a {
 }
 
 #about img {
-  max-width: 40vw;
+  max-width: 50vw;
   min-width: 20vw;
   max-height: auto;
   min-height: auto;
-  padding-left: 10vw ;
+  padding-left: 1vw ;
 }
 
 #about .about {
-
   max-width: 600px;
-  padding-left: 5vw;
+  padding-left: 0.2vw;
   color: bisque;
 }
 
 #about .about p{
-  line-height: 25px;
+  line-height: 30px;
   color: bisque;
 }
 
