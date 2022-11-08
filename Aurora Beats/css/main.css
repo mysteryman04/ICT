@@ -207,29 +207,32 @@ a {
 
 /* Music block styles */
 #audtop{
-  top: 115%;
-  color: bisque;
+  top: 125%;
+  color: #f377de;
   position: absolute;
-  padding-left: 44%;
+  padding-left: 20%;
   font-weight: bold;
-  font-size: larger;
-  color: beige;
+  font-size: 6rem;
 }
 #music {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20vh 0;
-  align-items: center
+  padding: 70vh 0;
+  align-items: center;
 }
 
 #music audio{
-  width: 50vw;
+  width: 65vw;
 }
 
 #music .audio {
-  margin-bottom: 40px;
-  color: bisque;
+  font-style: oblique;
+  text-align: center; 
+  font-size: 1.6rem;
+  margin-bottom: 55px;
+  color: #f377de;
+  margin: center;
 }
 
 
