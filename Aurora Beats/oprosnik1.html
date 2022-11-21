@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Music Taste Survey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 user-scalable=no">
+      
+    <link rel=stylesheet type="text/css" href="css/style.css">  
+  </head>
+
+  <div id="survey" action="#">
+    <header>
+      <h1 id="title">Music taste survey form</h1>
+      <p id="description">This form is designed to study what kind of music speaks to a specific age-group</p>
+    </header>
+
+    <form id="survey-id">
+      <div class="element">
+        <label id="name-label" for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="First-name" required />
+       </div>
+
+      <div class="element">
+        <label id="email-label" for="email">Email</label>
+        <input id="email" email="email" type="email" placeholder="example@email.com" required />
+      </div>
+
+      <div class="element">
+        <label id="number-label" for="age">Age</label>
+        <input id="number" age="age" type="number" min="13" max="80" placeholder="Age" />
+      </div>
+
+      <div class="element">
+      <p>Do you listen to music?</p>
+      <label><input class="input-radio" name="music" type="radio" value="yes" checked />Yes</label>
+      <label><input class="input-radio" name="music" type="radio" value="no" />No</label>
+      </div>
+
+      <div class="element">
+      <p>How often do you listen to music?</p>
+      <select id="dropdown" name="how-often" required>
+        <option disabled selected value>Select an opiton</option>
+        <option value="everyday">Everyday</option>
+        <option value="alternate days">Every other day</option>
+        <option value="somtimes">Sometimes</option>
+        <option value="never">Never</option>
+      </select>
+      </div>
+
+      <div class="element">
+      <p>What are the music genres you enjoy the most?(Check all that apply)</p>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="folk" />Folk</label>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="indie" />Indie</label>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="jazz" />Jazz</label>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="pop" />Pop</label>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="electronic" />Electronic</label>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="counrty" />Country</label>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="metal" />Metal</label>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="hip-hop" />Hip hop</label>
+      <label><input class="input-checkbox" name="genre" type="checkbox" value="classical" />Classical</label>
+      </div>
+
+      <div class="element">
+      <p>How does music affect your day to day life?</p>
+      <textarea name="comment" placeholder="Enter your answer here"></textarea>
+      </div>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+  
+</html>
