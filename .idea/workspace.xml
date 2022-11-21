@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad3b1fa-0773-4f0e-9659-10ffa0fbbe42" name="Changes" comment="favicon">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aurora Beats/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aurora Beats/main.html" afterDir="false" />
-    </list>
+    <list default="true" id="cad3b1fa-0773-4f0e-9659-10ffa0fbbe42" name="Changes" comment="favicon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +48,10 @@
       <workItem from="1667219074265" duration="5909000" />
       <workItem from="1667815792034" duration="4269000" />
       <workItem from="1667821806769" duration="3309000" />
-      <workItem from="1668075703453" duration="1130000" />
+      <workItem from="1668075703453" duration="4193000" />
+      <workItem from="1668443833888" duration="108000" />
+      <workItem from="1668445953797" duration="122000" />
+      <workItem from="1668784431157" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="favicon">
       <created>1666872945193</created>
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668075746941</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="favicon">
+      <created>1668088942621</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668088942621</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
