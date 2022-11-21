@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cad3b1fa-0773-4f0e-9659-10ffa0fbbe42" name="Changes" comment="favicon">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/1552122804_naughty-boy-feat_-sam-smith-la-la-la.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/Flo_Rida_-_Good_Feeling_(musmore.com).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/Kungs - Hhis Girl (ft. Cookin' On 3 Burners).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/Stephen Sanchez - Until I Found You.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/Tez Cadey - Seve (Dance-house music).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/Two Door Cinema Club â Sleep Alone.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/Walking_On_Cars_-_Two_Straight_Lines_(musmore.com).mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aurora Beats/playlists/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/earth, Wind &amp; Fire - September (Album Version).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aurora Beats/playlists/gradient2.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669062552924</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="favicon">
+      <created>1669063163846</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669063163846</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
