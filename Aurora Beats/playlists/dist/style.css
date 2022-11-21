@@ -20,6 +20,7 @@ a {
 }
 
 body {
+  background: url(../dist/gradient2.jpg);
   margin: 0;
   background-color: #F2D7D3;
   font-family: "Oswald", sans-serif;
@@ -28,46 +29,6 @@ body {
   font-size: 1rem;
   overflow: hidden;
   width: 100vw;
-}
-
-.wave-container {
-  width: 300vw;
-  height: 100%;
-  position: fixed;
-  overflow: hidden;
-  transform: translate3d(0, 0, 0);
-}
-
-.wave {
-  opacity: 1;
-  position: absolute;
-  top: 60%;
-  left: -28%;
-  background: #18DFAD;
-  width: 100%;
-  height: 300vw;
-  transform-origin: 50% 49%;
-  border-radius: 49%;
-  -webkit-animation: drift 3000ms infinite linear;
-  animation: drift 8000ms infinite linear;
-  will-change: transform;
-}
-
-.wave.-two {
-  animation: drift 9000ms infinite linear;
-  opacity: 1;
-  background: #33476a;
-  top: 60%;
-  left: -32%;
-}
-
-.wave.-three {
-  animation: drift 4000ms infinite linear;
-  opacity: 1;
-  background: #F12645;
-  top: 60%;
-  left: -36%;
-  z-index: -2;
 }
 
 @keyframes drift {
@@ -85,15 +46,6 @@ body {
   height: 50%;
   background-color: #33476a;
   z-index: -1;
-}
-
-.line {
-  position: fixed;
-  left: 50vw;
-  width: 2px;
-  height: 80px;
-  top: 24vh;
-  background-color: white;
 }
 
 .text-wrap {
@@ -129,131 +81,9 @@ body {
   transform: scale(0);
   transform-origin: bottom;
 }
-.main-btn_wrapper .main-btn {
-  line-height: 36px;
-}
-
-.header {
-  position: fixed;
-  left: 2.2vw;
-  top: 2.2vw;
-  margin-left: -4px;
-  margin-top: -6px;
-  color: #252120;
-  z-index: 103;
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-  height: 30px;
-}
-.header .burger-wrapper {
-  width: 20px;
-  height: 30px;
-  margin-right: 20px;
-  display: flex;
-  align-items: center;
-}
-.header .burger {
-  width: 20px;
-  height: 3px;
-  background-color: #252120;
-  position: relative;
-}
-.header .burger:before, .header .burger:after {
-  content: "";
-  width: 20px;
-  height: 3px;
-  background-color: #252120;
-  position: absolute;
-  left: 0;
-}
-.header .burger:before {
-  top: -6px;
-}
-.header .burger:after {
-  top: 6px;
-  width: 14px;
-}
-.header .logo-text {
-  font-size: 20px;
-  color: #252120;
-}
-
-.back_btn {
-  cursor: pointer;
-  position: relative;
-  color: rgba(37, 33, 32, 0.4);
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  display: none;
-  opacity: 0;
-}
-.back_btn .circle {
-  background-color: rgba(37, 33, 32, 0.3);
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  margin-right: 8px;
-}
-
-.nav {
-  will-change: transform;
-  position: fixed;
-  background-color: #fff;
-  width: 50vw;
-  min-width: 500px;
-  height: 100vh;
-  z-index: 10;
-  box-shadow: 0 30px 80px 0 rgba(97, 45, 45, 0.25);
-  display: none;
-}
-.nav ul {
-  color: #444444;
-}
-.nav ul.nav_main {
-  margin-top: 20vh;
-}
-.nav ul.nav_sub {
-  margin-top: 3vh;
-}
-.nav ul.nav_sub a {
-  font-size: 2.4vw;
-}
-.nav ul li {
-  margin-left: 6vw;
-  margin-bottom: 0.5vw;
-  position: relative;
-}
-
-.nav_link {
-  font-size: 3.8vw;
-  cursor: pointer;
-}
-.nav_link:before {
-  content: "";
-  position: absolute;
-  width: 4vw;
-  height: 2px;
-  background-color: #444444;
-  left: -12vw;
-  top: 50%;
-  transition: 0.4s;
-}
-
-.nav_divider {
-  width: 3vw;
-  height: 1px;
-  background-color: rgba(37, 33, 32, 0.12);
-  margin: 4vh 6vw;
-}
-
-.nav li .nav_link:hover:before {
-  left: -6vw;
-}
 
 .mini-player {
-  color: #252120;
+  color: #ffffff;
   position: fixed;
   height: 32px;
   right: 2.2vw;
@@ -264,7 +94,7 @@ body {
 }
 
 .track_info_wrapper {
-  border-right: 1px solid rgba(24, 38, 69, 0.11);
+  border-right: 1px solid rgb(255, 255, 255);
   margin-right: 23px;
   padding-right: 30px;
 }
@@ -294,7 +124,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 12px;
-  color: rgba(37, 33, 32, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .mini-player_btn_wrapper {
@@ -571,7 +401,7 @@ body {
   height: 100%;
   position: fixed;
   text-align: center;
-  color: #252120;
+  color: #ffffff;
   display: none;
 }
 #curator .curator_title_wrapper {
@@ -584,17 +414,17 @@ body {
   opacity: 0;
 }
 #curator .curator_title_wrapper span {
-  font-size: 2.16vh;
+  font-size: 3vh;
 }
 #curator .curator_title_wrapper .curator_title {
-  font-size: 7.425vh;
+  font-size: 10vh;
 }
 #curator .curator_title_wrapper .curator_line {
   width: 30px;
   height: 2px;
   border-radius: 2px;
   margin: 0 30px;
-  background-color: #252120;
+  background-color: #ffffff;
 }
 
 .curator_list {
