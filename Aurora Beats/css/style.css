@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light&display=swap');
 
 body {
+  color: aliceblue;
   font-family: Open Sans;
 }
 
@@ -12,7 +13,7 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background-image: url(https://source.unsplash.com/H5Iw3Xz0vxM);
+  background-image: url(../img/gardient1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,16 +28,20 @@ header {
 }
 
 #title {
+  color: rgba(255, 0, 191, 0.89);
   font-family: Shadows Into Light;
+  font-size: 2cm;
 }
 
 #description {
+  color: rgba(255, 0, 221, 0.705);
+  font-family: Shadows Into Light;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  font-size: ;
+  font-size: 0.8cm;
 }
 
 #survey-id {
-  background-color: rgba(217, 179, 4, 0.75);
+  background-color: rgba(139, 0, 253, 0.37);
   padding: 25px;
   margin-right: 21%;
   margin-left: 21%;
@@ -104,9 +109,9 @@ button {
   display: block;
   width: 100%;
   padding: 0.7rem;
-  background: rgb(61, 55, 19);
+  background: rgba(164, 25, 245, 0.788);
   color: white;
   cursor: pointer;
-  border-radius: 0.7rem;
-  font-size: 1.125rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
 }
